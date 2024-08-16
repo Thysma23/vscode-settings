@@ -9,3 +9,4 @@
 
 1. Le nom du dossier disparait
 1. Lorsqu'on ouvre le chat copilot, l'effet de flou est toujours présent
+1. L'état VIM est parfois remplacé par des IDs de commandes

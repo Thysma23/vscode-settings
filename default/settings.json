@@ -1,0 +1,113 @@
+{
+  "editor.fontLigatures": true,
+  "editor.fontFamily": "fira-code-nerd, FiraCode Nerd Font, Consolas, 'Courier New', monospace",
+  "workbench.colorTheme": "Monokai",
+  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorCustomizations": {
+    "editor.background": "#282827",
+    "titleBar.activeBackground": "#181291"
+  },
+  "editor.minimap.showSlider": "always",
+  "editor.minimap.size": "fill",
+  "editor.minimap.renderCharacters": false,
+  "editor.scrollbar.horizontal": "hidden",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.wordWrap": "on",
+  "window.zoomLevel": 1.2,
+  "editor.mouseWheelZoom": true,
+  "editor.renderWhitespace": "all",
+  "editor.guides.bracketPairs": "active",
+  "breadcrumbs.enabled": false,
+  "editor.hideCursorInOverviewRuler": true,
+  "editor.stickyScroll.enabled": false,
+  "editor.padding.top": 2,
+  "explorer.compactFolders": false,
+  "editor.tabSize": 2,
+  "indentRainbow.indicatorStyle": "light",
+  "indentRainbow.lightIndicatorStyleLineWidth": 5,
+  "files.autoSaveWhenNoErrors": true,
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.value": 4,
+  "explorer.sortOrder": "type",
+  "security.workspace.trust.enabled": false,
+  "gitlens.fileAnnotations.dismissOnEscape": false,
+  "gitlens.fileAnnotations.preserveWhileEditing": false,
+  "gitlens.blame.toggleMode": "window",
+  "vim.smartRelativeLine": true,
+  "vim.commandLineModeKeyBindings": [],
+  "editor.cursorSurroundingLines": 7,
+  "vim.highlightedyank.enable": true,
+  "vim.highlightedyank.color": "#a8dc7660",
+  "vim.highlightedyank.duration": 449,
+  "vim.useSystemClipboard": true,
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-a>": false,
+    "<C-t>": false,
+    "<C-p>": false
+  },
+  "vim.leader": "<space>",
+  "vim.normalModeKeyBindings": [
+    {
+      "before": ["<leader>", "e"],
+      "commands": ["workbench.action.toggleSidebarVisibility"]
+    },
+    {
+      "before": ["<leader>", "x"],
+      "commands": ["workbench.view.extensions"]
+    },
+    {
+      "before": ["<leader>", "z"],
+      "commands": ["workbench.action.toggleZenMode"]
+    },
+    {
+      "before": ["<leader>", "p"],
+      "commands": ["workbench.actions.view.problems"]
+    },
+    {
+      "before": ["<leader>", "f"],
+      "commands": ["workbench.view.search"]
+    },
+    {
+      "before": ["<leader>", "l"],
+      "commands": ["workbench.action.toggleAuxiliaryBar"]
+    },
+    {
+      "before": ["<leader>", "b"],
+      "commands": ["workbench.action.togglePanel"]
+    },
+    {
+      "before": ["<C-i>"],
+      "commands": ["workbench.action.quickchat.toggle"]
+    }
+  ],
+  "prettier.singleQuote": true,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "always",
+  "prettier.jsxSingleQuote": true,
+  "workbench.experimental.enableNewProfilesUI": true,
+  "terminal.integrated.cursorStyle": "line",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "prettier.tabWidth": 2
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "prettier.tabWidth": 2
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "prettier.tabWidth": 2
+  },
+  "[javascriptreact]": {
+    "editor.defaultFormatter": "rvest.vs-code-prettier-eslint",
+    "prettier.tabWidth": 2
+  },
+  "files.autoSave": "afterDelay",
+  "window.commandCenter": false,
+  "editor.minimap.enabled": true
+}
